@@ -244,11 +244,11 @@ background-color: var(--button-bcg-color);
 
 /* Особливості */
 
-.section.feature {
+.feature {
 padding-bottom: 47px;
 }
 
-.feature-list {
+.feature__list {
 display: flex;
     align-items: flex-start;
     flex-basis: calc(100% / 4 - 30px);
@@ -256,11 +256,11 @@ display: flex;
     margin-bottom: 0px;
 }
 
-.feature-list .item+.item {
+.feature__list .feature__item+.feature__item {
     margin-left: 30px;
 }
 
-.features-container {
+.features__container {
 display: flex;
     align-items: center;
     margin-bottom: 30px;
@@ -271,7 +271,7 @@ width: 270px;
     background-color: var(--third-bcg-color);
 }
 
-.feature-title {
+.feature__title {
 font-size: 14px;
     font-weight: 700;
     line-height: 1.14;
@@ -279,7 +279,7 @@ font-size: 14px;
     margin-bottom: 10px;
 }
 
-.feature-list .text {
+.feature__text {
 color: var(--paragraph-text-color);
     min-width: 270px;
     line-height: 1.7;
