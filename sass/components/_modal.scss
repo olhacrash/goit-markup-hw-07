@@ -28,7 +28,7 @@
     width: 528px;
     height: 581px;
 
-    background-color: #ffffff;
+    background-color: getColor('title');
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
         0px 2px 1px rgba(0, 0, 0, 0.2);
 
@@ -61,19 +61,12 @@
 
     &:hover,
     &:focus {
-        fill: var(--accent-text-color);
+        fill: getColor('accent-text');
     }
 }
 
 /* Форма */
 
-// .form-textarea::placeholder {
-//     font-size: 12px;
-//     line-height: calc(14 / 12);
-//     letter-spacing: 0.01em;
-
-//     color: rgba(117, 117, 117, 0.5);
-// }
 
 .order-service ul {
     margin-bottom: 20px;
@@ -96,10 +89,6 @@
         margin-bottom: 10px;
     }
 }
-
-// .form-field:not(:last-child) {
-//     margin-bottom: 10px;
-// }
 
 .form-icon {
     position: absolute;
@@ -130,7 +119,7 @@
 
     &:hover,
     &:focus {
-        border-color: var(--accent-text-color);
+        border-color: getColor('accent-text');
     }
 }
 
@@ -140,7 +129,7 @@
     font-size: 12px;
     line-height: calc(14 / 12);
     letter-spacing: 0.01em;
-    color: var(--paragraph-text-color);
+    color: getColor('paragraph-text');
 }
 
 .form-input {
@@ -155,28 +144,15 @@
 
     &:hover+.form-icon,
     &:focus+.form-icon {
-        border-color: var(--accent-text-color);
-        fill: var(--accent-text-color);
+        border-color: getColor('accent-text');
+            fill: getColor('accent-text');
     }
 
     &:hover,
     &:focus {
-        border-color: var(--accent-text-color);
+        border-color: getColor('accent-text');
     }
 }
-
-// .form-input:hover+.form-icon,
-// .form-input:focus+.form-icon {
-//     border-color: var(--accent-text-color);
-//     fill: var(--accent-text-color);
-// }
-
-// .form-input:hover,
-// .form-input:focus,
-// .form-textarea:hover,
-// .form-textarea:focus {
-//     border-color: var(--accent-text-color);
-// }
 
 .accept {
     display: flex;
@@ -184,12 +160,12 @@
     justify-content: center;
     margin-bottom: 30px;
 
-    color: var(--paragraph-text-color);
+    color: getColor('paragraph-text');
     line-height: 1.71;
 }
 
 .accept-link {
-    color: var(--accent-text-color);
+    color: getColor('accent-text');
     text-decoration: underline;
     margin-left: 7px;
 }
@@ -244,8 +220,8 @@
     padding: 10px 52px;
     border-color: transparent;
     border-radius: 4px;
-    background-color: var(--accent-text-color);
-    color: var(--title-white-color);
+    background-color: getColor('accent-text');
+        color: getColor('title');
     font-weight: 700;
     font-size: 16px;
     line-height: 1.9;
@@ -260,8 +236,3 @@
         background-color: #188ce8;
     }
 }
-
-// .btn-send:hover,
-// .btn-send:focus {
-//     background-color: #188ce8;
-// }

@@ -1,5 +1,5 @@
 .logo-link {
-    color: var(--accent-text-color);
+    color: getColor('accent-text');
     font-family: 'Raleway', sans-serif;
     text-decoration: none;
     font-weight: 700;
@@ -8,10 +8,10 @@
 
     &:hover,
     &:focus {
-        color: var(--accent-text-color);
+        color: getColor('accent-text');
     }
 }
 
 .logo-header {
-    color: var(--logo-black-color);
+    color: getColor('logo-black');
 }

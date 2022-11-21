@@ -22,7 +22,7 @@
 
     &-title {
         margin-bottom: 4px;
-        color: var(--primary-gray-color);
+        color: getColor('primary-gray');
         font-weight: 700;
         font-size: 18px;
         line-height: 2;
@@ -30,7 +30,7 @@
     }
 
     &-item {
-        color: var(--paragraph-text-color);
+        color: getColor('paragraph-text');
         font-size: 16px;
         line-height: 1.88;
     }

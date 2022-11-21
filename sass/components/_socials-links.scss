@@ -21,7 +21,7 @@
 
         &:hover,
         &:focus {
-            background-color: var(--button-bcg-color);
+            background-color: getColor('button-bcg');
         }
 
         &:hover .socials__icon,

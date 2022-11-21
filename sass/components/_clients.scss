@@ -35,7 +35,7 @@
 
     &:hover,
     &:focus {
-        border-color: var(--accent-text-color);
-        color: var(--accent-text-color);
+        border-color: getColor('accent-text');
+            color: getColor('accent-text');
     }
 }
